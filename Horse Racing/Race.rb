@@ -25,7 +25,6 @@ while(!track.isWinner)
 	print "\r" + ("\e[A\e[K"*racers.length)
 	puts(toPrint)
 end
-n
 winners = track.getWinners
 
 line = ""
